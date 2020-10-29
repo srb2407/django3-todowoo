@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+</head>
+
+<body>
+    {% extends 'todo/base.html' %}
+    {% block content %}
+    {% csrf_token %}
+    <h2>Home</h2>
+    {% endblock %}
+</body>
+
+</html>
